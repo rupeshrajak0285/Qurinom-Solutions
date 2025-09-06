@@ -23,9 +23,6 @@ class App extends StatelessWidget {
         RepositoryProvider<AuthRepository>(
           create: (context) => AuthRepository(),
         ),
-        RepositoryProvider<MovieRepository>(
-          create: (context) => MovieRepository(),
-        ),
         RepositoryProvider<ChatRepository>(
           create: (context) => ChatRepository(),
         ),
